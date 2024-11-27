@@ -1,0 +1,178 @@
+:root {
+    --blue_logo: #2196F3;
+    --global_grey: #757575;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: "Roboto";
+}
+header nav .logo
+{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+}
+header nav .logo span
+{
+    color:var(--blue_logo)
+}
+
+header nav .links li a
+{
+    font-weight: 500;
+    font-size: 14px;
+}
+header nav .links li a:hover {
+    color: var(--blue_logo)
+}
+header nav .contact_info li a
+{
+    font-weight: 500;
+    font-size: 14px;
+    color:var(--global_grey);
+    fill:var(--global_grey)
+}
+header nav .contact_info li a:hover {
+    color: var(--blue_logo);
+    fill: var(--blue_logo)
+}
+main .baner 
+{
+    background-color: #2F303A;
+}
+main .baner h1
+{
+    font-weight: 900;
+    font-size: 44px;
+    color:#ffff;
+}
+main .baner button
+{
+    font-weight: 700;
+    font-size: 16px;
+    color:#ffff;
+    background-color: var(--blue_logo);
+    cursor: pointer;
+}
+main .description ul li svg
+{
+    background-color: #F5F4FA;
+}
+main .description ul li h3 {
+    font-weight: 700;
+    font-size: 14px;
+}
+main .description ul li p
+{
+   color:var(--global_grey) 
+}
+main .works h2
+{
+    font-weight: 700;
+    font-size: 36px;
+}
+main .team
+{
+    background-color: #F5F4FA;
+}
+main .team h2
+{
+    font-weight: 700;
+    font-size: 36px;
+}
+main .team .workers .card
+{
+    box-shadow: 0px 5px 5px -5px;
+}
+main .team .workers .card .name
+{
+    font-weight: 500;
+    font-size: 16px;
+}
+main .team .workers .card .post
+{
+    font-size: 16px;
+    color:var(--global_grey);
+}
+main .team .workers .card .social_media .app a
+{
+    fill:var(--global_grey);
+    width: 44px;
+    height: 44px;
+}
+main .team .workers .card .social_media .app a:hover {
+    fill:#ffff;
+    background-color: var(--blue_logo);
+}
+footer 
+{
+    background-color: #2F303A;
+}
+footer .logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    color: #ffff;
+}
+
+footer .logo span {
+    color: var(--blue_logo)
+}
+footer address
+{
+    color: #ffff;
+    font-style: normal;
+}
+footer address ul li a
+{
+    color:var(--global_grey);
+}
+footer p
+{
+    color: #ffff;
+}
+footer .social_media .app a {
+    fill: #ffff;
+    background-color: rgba(255, 255, 255, 10%);
+    width: 44px;
+    height: 44px;
+}
+
+footer .social_media .app a:hover {
+    background-color: var(--blue_logo);
+}
+footer form label {
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+footer form label input {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    border-color: rgba(255, 255, 255, 30%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+footer form button {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 4px;
+    background-color: var(--blue_logo);
+    cursor: pointer;
+}
