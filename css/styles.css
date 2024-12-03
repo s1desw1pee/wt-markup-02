@@ -81,6 +81,10 @@ main .works h2
     font-weight: 700;
     font-size: 36px;
 }
+main .works img
+{
+    border-radius: 4px;
+}
 main .team
 {
     background-color: #F5F4FA;
@@ -106,11 +110,15 @@ main .team .workers .card .post
 }
 main .team .workers .card .social_media .app a
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill:var(--global_grey);
     width: 44px;
     height: 44px;
 }
 main .team .workers .card .social_media .app a:hover {
+    border-radius: 100%;
     fill:#ffff;
     background-color: var(--blue_logo);
 }
@@ -142,6 +150,10 @@ footer h2
     color: #ffff;
 }
 footer .social_media .app a {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill: #ffff;
     background-color: rgba(255, 255, 255, 10%);
     width: 44px;
